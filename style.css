@@ -59,7 +59,7 @@ a{
 button{
     background-color: #3882F6;
     color: white;
-    max-width: 100px;
+    width: 100px;
     height: 30px;
     border-radius: 10px;
     border: 0;
@@ -168,5 +168,19 @@ img{
 
 .modal .title{
     font-size: 20px;
+    font-weight: bold;
+}
+
+.footer{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 32px;
+    color: white;
+    text-align: center;
+    background-color: #1F2937;
+}
+
+.footer a{
+    text-decoration: underline;
     font-weight: bold;
 }
