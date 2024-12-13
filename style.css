@@ -33,10 +33,17 @@ a{
 }
 
 /* hero */
+.hero-parent{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .hero{
    flex-direction: row;
    gap:16px;
-
+   padding-bottom: 32px;
+   max-width: 900px;
 }
 
 .heroleft{
@@ -78,6 +85,7 @@ img{
     justify-content: center;
     margin-top: 32px;
     gap: 16px;
+    margin-bottom: 32px;
 }
 .info .title{
     font-size: 36px;
@@ -92,6 +100,7 @@ img{
     justify-content: center;
     gap: 32px;
     flex-wrap: wrap;
+    max-width: 900px;
 }
 
 .card{
@@ -108,4 +117,25 @@ img{
     border-color: #3882F6;
     border-radius: 12px;
     margin: auto;
+
+}
+
+
+.quote{
+    background-color: #E5E7EB;
+    padding:50px;
+    align-items: center;
+    justify-content: center;
+}
+.quote .main{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: light;
+    max-width: 900px;
+    margin: auto;
+}
+.quote .main .author{
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
 }
